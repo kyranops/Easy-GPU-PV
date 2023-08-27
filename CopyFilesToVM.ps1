@@ -1,10 +1,10 @@
 ﻿$params = @{
-    VMName = "GPUPV"
-    SourcePath = "C:\Users\james\Downloads\Win11_English_x64.iso"
+    VMName = "VM01"
+    SourcePath = "C:\Users\leona\Downloads\Win11_22H2_EnglishInternational_x64v2.iso"
     Edition    = 6
     VhdFormat  = "VHDX"
     DiskLayout = "UEFI"
-    SizeBytes  = 40GB
+    SizeBytes  = 80GB
     MemoryAmount = 8GB
     CPUCores = 4
     NetworkSwitch = "Default Switch"
@@ -14,8 +14,8 @@
     GPUResourceAllocationPercentage = 50
     Team_ID = ""
     Key = ""
-    Username = "GPUVM"
-    Password = "CoolestPassword!"
+    Username = "Hubert"
+    Password = "1995"
     Autologon = "true"
 }
 
